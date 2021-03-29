@@ -8,7 +8,7 @@ setup(
     name='calqtator',
     version='0.1.0',
     packages=['calqtator'],
-    description='A simple calculator built with Qt bindings for Python',
+    description='A simple calculator widget PySide6.',
     long_description=README,
     long_description_content_type="text/markdown",
     url='https://github.com/chrisimcevoy/calqtator',
