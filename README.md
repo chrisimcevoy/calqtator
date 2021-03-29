@@ -39,5 +39,6 @@ if __name__ == '__main__':
 
 - 0.2.0
     - Added Changelog to README.md
+    - Button reorganisation.
 - 0.1.0
     - Basic calculator functionality.

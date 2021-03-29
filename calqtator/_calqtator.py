@@ -59,10 +59,10 @@ class ButtonGrid(QWidget):
 
         layout_map = [
             [None, None, Symbol.CLEAR, Symbol.ALL_CLEAR],
-            [Symbol.ONE, Symbol.TWO, Symbol.THREE, Symbol.ADDITION],
-            [Symbol.FOUR, Symbol.FIVE, Symbol.SIX, Symbol.SUBTRACTION],
-            [Symbol.SEVEN, Symbol.EIGHT, Symbol.NINE, Symbol.MULTIPLICATION],
-            [Symbol.ZERO, Symbol.POINT, Symbol.EQUALS, Symbol.DIVISION]
+            [Symbol.SEVEN, Symbol.EIGHT, Symbol.NINE, Symbol.DIVISION],
+            [Symbol.FOUR, Symbol.FIVE, Symbol.SIX, Symbol.MULTIPLICATION],
+            [Symbol.ONE, Symbol.TWO, Symbol.THREE, Symbol.SUBTRACTION],
+            [Symbol.ZERO, Symbol.POINT, Symbol.EQUALS, Symbol.ADDITION]
         ]
 
         layout = QGridLayout()
