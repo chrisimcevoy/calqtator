@@ -38,7 +38,8 @@ if __name__ == '__main__':
 ## Changelog
 
 - 0.2.0
-    - Added Changelog to README.md
+    - Added Changelog to README.md.
     - Button reorganisation.
+    - More key bindings.
 - 0.1.0
     - Basic calculator functionality.

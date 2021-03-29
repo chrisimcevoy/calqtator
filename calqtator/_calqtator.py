@@ -77,6 +77,16 @@ class ButtonGrid(QWidget):
                 shortcut = QShortcut(QKeySequence(symbol.value), self)
                 shortcut.activated.connect(button.click)
 
+                alt_shortcut = None
+
+                if symbol == Symbol.MULTIPLICATION:
+                    alt_shortcut = QShortcut(QKeySequence('*'), self)
+                elif symbol == Symbol.EQUALS:
+                    alt_shortcut = QShortcut(QKeySequence.InsertParagraphSeparator, self)
+
+                if alt_shortcut:
+                    alt_shortcut.activated.connect(button.click)
+
         self.setLayout(layout)
 
 
