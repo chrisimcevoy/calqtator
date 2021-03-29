@@ -138,6 +138,9 @@ class CalQtator(QWidget):
         last_symbol = self.last_symbol
 
         if symbol == Symbol.EQUALS:
+            if last_symbol in OPERATORS:
+                self.expression = self.expression.removesuffix(last_symbol.value)
+
             operator_values = [o.value for o in OPERATORS]
             prepared_stmts = []
             stmts = self.expression.split()
