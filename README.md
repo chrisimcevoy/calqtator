@@ -41,5 +41,6 @@ if __name__ == '__main__':
     - Added Changelog to README.md.
     - Button reorganisation.
     - More key bindings.
+    - Anticipate unexpected EOF exceptions when `=` is triggered.
 - 0.1.0
     - Basic calculator functionality.
